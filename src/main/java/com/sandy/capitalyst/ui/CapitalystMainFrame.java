@@ -58,7 +58,7 @@ public class CapitalystMainFrame extends JFrame {
         openFileChooser = new JFileChooser() ;
         openFileChooser.setFileSelectionMode( JFileChooser.FILES_ONLY ) ;
         openFileChooser.setMultiSelectionEnabled( false ) ;
-        openFileChooser.setCurrentDirectory( new File( "/home/sandeep/projects/source/CapitalystHome/src/main/config") );
+        openFileChooser.setCurrentDirectory( new File( "/Users/Sensei/Projects/[Ongoing]/CapitalystHome/src/main/config") );
         openFileChooser.setFileFilter( new FileFilter() {
             
             @Override public String getDescription() {
@@ -92,7 +92,7 @@ public class CapitalystMainFrame extends JFrame {
 //                File file = openFileChooser.getSelectedFile() ;
 //                projectPanel.loadUniverse( file ) ;
 //            }
-            File file = new File( "/home/sandeep/projects/source/CapitalystHome/src/main/config/my.cap.properties" ) ;
+            File file = new File( "/Users/Sensei/Projects/[Ongoing]/CapitalystHome/src/main/config/my.cap.properties" ) ;
             projectPanel.loadUniverse( file ) ;
         }
         catch( Exception e ) {
